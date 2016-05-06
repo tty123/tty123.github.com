@@ -1,0 +1,72 @@
+                        
+        .logo
+        {
+            font-family: 'Alex Brush', cursive;
+            font-size: 60px;
+            color: #ff97e5;
+            display: block;
+            float: left;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        
+        .top-menu
+        {
+            display: block;
+        }
+        
+        .top-menu-item
+        {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 16px;
+              color: #f3a1bc;
+            display: inline-block;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;            
+            border-radius: 10px 20px 10px 20px;
+        }
+        
+        .top-menu-item:hover
+        {
+            background-color: rgba(21,21,19,0.7);
+            
+        }
+
+        .main-text
+        {
+            font-family: 'Philosopher', sans-serif;
+            font-size: 16px;
+            color:  #ded1e9;        
+            display: inline;
+            margin-left:40px;            
+        }
+
+        .content
+        {   
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px;        
+        }
+
+        .footer
+        {
+            display: block;
+            overflow: visible;
+            background-color: rgba(21,21,19,0.7);
+            background-clip:border-box;
+            font-family: 'Arial';
+            font-size: 12px;
+            color:  #8c769f;
+            margin: 0px 0px 0px 0px;
+            padding: 5px 15px 5px 15px ;
+        }
+    
+
+        a:link {text-decoration:underline; color: #f3a1bc; }
+        a:visited {text-decoration:none; color: #f3a1bc; }
+        a:hover {text-decoration:underline; color: #f3a1bc; }
+        a:active {text-decoration:underline; color: #f3a1bc; }
+
+        
