@@ -4,7 +4,7 @@ pictures.list =
 [
     {
         Page: '69',
-        Title: 'Сон',
+        Title: 'Петушиный бой (фиолетово-мятный)',
         Description: 'Холст/акрил 90см x 50см 2016 г.',
         PriceRUB: '9000 руб.',
         Categories: ['news', 'abstract', '2016'],
