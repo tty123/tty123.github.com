@@ -3,6 +3,100 @@ pictures = {};
 pictures.list =
 [
     {
+        Page: '69',
+        Title: 'Сон',
+        Description: 'Холст/акрил 90см x 50см 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['news', 'abstract', '2016'],
+        PicasaImages: [
+            'http://lh3.googleusercontent.com/-xoSw5lYs_z4/Vz4hOb5spuI/AAAAAAAAAfk/ethxFSv560k0HAgaAlU1PXstUtWCTeegQCCo/',
+            'http://lh3.googleusercontent.com/-aaLxM1DLb-Y/Vz4hNM13CpI/AAAAAAAAAfk/j0aWCCPB2Esezr69v724kF_k6pQEgWyNACCo/',
+            'http://lh3.googleusercontent.com/-ioOp_3gH4FU/Vz4hNZWWCOI/AAAAAAAAAfk/oEmblSfenIoqGtr0LP8uW-XjWAtrGauZwCCo/',
+            'http://lh3.googleusercontent.com/-AkNkzX4uG1o/Vz4hN7bdDbI/AAAAAAAAAfk/msv_09ltHXIjqRxc4VqBtht8Hl-y4mgTQCCo/'
+        ],
+        Fragments: [
+            '', '', '', ''],
+        PicasaSize: '-Ic42'
+    },
+    {
+        Page: '68',
+        Title: 'Восход',
+        Description: 'Холст/масло 100см x 120см 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['landscape', '2016'],
+        PicasaImages: [
+            'http://lh3.googleusercontent.com/-gGUWi2yyJBA/Vz4hPDz8TpI/AAAAAAAAAfk/Z7tevNV3svApVf590CANUhpM_Rvq8ip7ACCo/'
+        ],
+        Fragments: [
+            ''],
+        PicasaSize: '-Ic42'
+    },
+    {
+        Page: '67',
+        Title: 'Сон',
+        Description: 'Холст/масло 80см x 80см 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['news', 'stillife', '2016'],
+        PicasaImages: [
+            'http://lh3.googleusercontent.com/-szBaIWVzwI0/Vz4hMBIxz2I/AAAAAAAAAfk/syUin2wf_f477q6o-2MTt_AO1m6PDxKJwCCo/',
+            'http://lh3.googleusercontent.com/-GqdUKX836Wc/Vz4mgov8zXI/AAAAAAAAAgI/c1Qo9BeincovITG2DTflZTYDq8DLXdYhACCo/',
+            'http://lh3.googleusercontent.com/-qPuvKQuZKrE/Vz4hMJvQ7II/AAAAAAAAAfk/lZ0v-_S3zy0NgKiRmn57EOTib_sgiSrcgCCo/',
+            'http://lh3.googleusercontent.com/-uDS82dR0UU0/Vz4hMTuq5II/AAAAAAAAAfk/WBJGhY1Mh64frVo4V_s_RdISmLtDjTKfACCo/'
+        ],
+        Fragments: [
+            '', '', '', ''],
+        PicasaSize: '-Ic42'
+    },
+    
+    {
+        Page: '66',
+        Title: 'Признание в Любви',
+        Description: 'Холст/акрил 100см x 100см 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['news', 'stillife', '2016'],
+        PicasaImages: [
+            'http://lh3.googleusercontent.com/-O_PCdYtOUko/Vz4hLorlLZI/AAAAAAAAAfk/efMXWAuKF4IILSCrAwQK1nBU7_c1NeAUQCCo/',
+            'http://lh3.googleusercontent.com/-TwVPkpe62_Q/Vz4hH1PF6DI/AAAAAAAAAfc/XFpGd8D47CAv4YXrCK_V5u5Ep-uCwzsxwCCo/',
+            'http://lh3.googleusercontent.com/-84VunjuFjbk/Vz4lhiWoeWI/AAAAAAAAAgA/TtKuG0_faYMIMV1mLcOvHnjGkbsJEwvWwCCo/'            
+        ],
+        Fragments: [
+            '', '', ''],
+        PicasaSize: '-Ic42'
+    },
+
+    {
+        Page: '65',    
+        Title: 'В тишине',
+        Description: 'Холст/акрил 100см x 100см 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['news', 'abstract', 'landscape', '2016'],
+        PicasaImages: [
+            'http://lh3.googleusercontent.com/-pBlo1jb7Gjo/Vz4hLoFdipI/AAAAAAAAAfk/9zdYFbDO67Yj5qftk_-HdUoSNRz0cFroQCCo/',
+            'http://lh3.googleusercontent.com/-NgbM8k-0w80/Vz4hHDUWMbI/AAAAAAAAAfc/JbJDlaSf3hk4c4XqbAQXsSPhqarJwjO1gCCo/',
+            'http://lh3.googleusercontent.com/-uEklPpGVH0E/Vz4hHZggNfI/AAAAAAAAAfc/uDw6cbmOXxUR3pmUCSePb9ntPgV3_1R5QCCo/'            
+        ],
+        Fragments: [
+            '', '', ''],
+        PicasaSize: '-Ic42'
+    },
+    {
+        Page: '64',
+        Title: 'Provence',
+        Description: 'Холст, акрил, серебряная поталь 100см x 100см 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['news', 'stillife', '2016'],
+        PicasaImages: [
+            'http://lh3.googleusercontent.com/-GeSJGJPAT7E/Vz4hKNvD3aI/AAAAAAAAAeo/B7zG1_xF87opAXdFS1lkerlWBPnCJ5vhgCCo/',
+            'http://lh3.googleusercontent.com/-HKjVjwPWYoI/Vz4hG8KSrAI/AAAAAAAAAfc/vqthaPB1ZfcnqkX-7LmUqKn2C7eK5D50wCCo/',
+            'http://lh3.googleusercontent.com/-gVs0PPzkPi0/Vz4hG__sZlI/AAAAAAAAAfc/P2Lmn5FCWdMJ5wZD5SfKqURiVEyTR8Y5ACCo/',
+            'http://lh3.googleusercontent.com/-0OIQ8V5Mfgc/Vz4hG7yIXYI/AAAAAAAAAfc/hEraxQFmWxoZpXWcE57OlKe8r6lLaGTFACCo/'
+        ],
+        Fragments: [
+            '', '', '',''],
+        PicasaSize: '-Ic42'
+    },
+    
+    {
         Page: '63',
         Title: 'Дождь в большом городе',
         Description: 'Холст/масло 60см x 90см 2015 г.',
@@ -124,7 +218,7 @@ pictures.list =
         Title : 'Остров Санторини',
         Description : 'Холст/акрил 100см x 100см 2015 г.',
         PriceRUB : '9000 руб.' ,
-        Categories : [ 'news','abstract', '2015'] ,
+        Categories : [ 'news','abstract', 'cityscape' , '2015'] ,
         PicasaImages : [
             'http://lh3.googleusercontent.com/-saZevNp7MM8/VPYnLqkWhwI/AAAAAAAAAZY/n05c4WWnuKA/',
             'http://lh6.googleusercontent.com/-wU36vV-M74k/VPYnNsopzdI/AAAAAAAAAZk/qwJrlaeCMLM/',
