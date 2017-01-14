@@ -3,6 +3,18 @@ pictures = {};
 pictures.list =
 [
     {
+        Page: '70',
+        Title: 'Там, где цветут апельсины',
+        Description: 'Холст/масло, 80см х 95 см, 2016 г.',
+        PriceRUB: '9000 руб.',
+        Categories: ['news', 'stillife', '2016'],
+        CloudinaryImages: [
+            '/v1484423913/published/Там_где_цветут_апельсины_vwhej0.jpg'
+        ],
+        Fragments: [
+            ''],
+    },
+    {
         Page: '69',
         Title: 'Петушиный бой (фиолетово-мятный)',
         Description: 'Холст/акрил 90см x 50см 2016 г.',

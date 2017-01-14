@@ -5,6 +5,21 @@ var galleryApp = {};
 var byId = [];
 var byCategory=[];
 
+var CloudinaryPfx ="http://res.cloudinary.com/danaia-art/image/upload/";
+
+function CloudinaryFit(image, limit)
+{
+   return CloudinaryPfx+"c_fit,h_"+limit+",w_"+limit+image;
+}
+
+function CloudinaryFitHeight(image, limit)
+{
+   return CloudinaryPfx+"c_fit,h_"+limit+image;
+}
+
+
+
+
 function getUrlParameters(locationObj)
 {
     var url=null;
@@ -76,7 +91,14 @@ function renderPicture( id, category, index )
     var item=byId[id];
     var sizePfx = item.PicasaSize || "";
     $('meta[name=description]').attr('content', item.Title+'    '+item.Description);
-    $('#large').css ("backgroundImage",'url('+item.PicasaImages[0]+"s"+730+sizePfx+"/"+')');
+    
+    if (item.CloudinaryImages)
+    {
+        $('#large').css ("backgroundImage",'url('+CloudinaryFit(item.CloudinaryImages[0],730)+')');
+    }
+    else 
+        $('#large').css ("backgroundImage",'url('+item.PicasaImages[0]+"s"+730+sizePfx+"/"+')');
+    
     $("#viewer-title").text(item.Title);
     $("#viewer-description").text(item.Description);
     $("#viewer-fragment-description").text('');
@@ -94,11 +116,25 @@ function renderPicture( id, category, index )
     $("#viewer-thumb-12").hide();
     $("#viewer-thumb-13").hide();
     $("#viewer-thumb-14").hide();
-
     $("#viewer-prev-cell").hide();
     $("#viewer-next-cell").hide();
 
-    if (item.PicasaImages.length > 1)
+    if (item.CloudinaryImages && item.CloudinaryImages.length > 1)
+    {
+        for (var i=0; i<item.CloudinaryImages.length; i++)
+        {
+            var t=$("#viewer-thumb-"+(i+1));
+            t.attr("src", CloudinaryFitHeight(item.CloudinaryImages[i], 50));
+            t.attr("data-large-src", CloudinaryFit(item.CloudinaryImages[i],730) );
+            if (item.Fragments && item.Fragments.length > i)
+                t.attr("data-description",item.Fragments[i]);
+            else
+                t.attr("data-description",'');
+            t.show();
+        }
+    }
+
+    if (item.PicasaImages && item.PicasaImages.length > 1)
     {
         for (var i=0; i<item.PicasaImages.length; i++)
         {
@@ -205,7 +241,7 @@ galleryApp.clickPicture = function ( id, category, index )
             { url:   window.location.origin+'/pictures/'+id+'.html',
             title: item.Title,
             description: item.Description,
-            image: item.PicasaImages[0]+"h"+200+sizePfx+"/",
+            image: item.PicasaImages[0]+"h"+200+sizePfx+"/",  //TODO fix for Cloudinary
             noparse: true}, {type: 'round_nocount', text: 'Поделиться'});
     }
     catch (e)

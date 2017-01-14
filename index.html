@@ -98,10 +98,14 @@
           {
               var thumb=document.getElementById(thumbId);
               var imgUrl = thumb.src;
-              if (imgUrl.substr(-6)== "-Ic42/")
+
+              if (thumb["data-large-src"]) //cloudinary image
+                 imgUrl = thumb["data-large-src"];
+              else if (imgUrl.substr(-6)== "-Ic42/") //picase with 42 prefix image
                 imgUrl=imgUrl.slice(0,imgUrl.length-9)+'s'+730+'-Ic42/';
-              else
+              else //picasa image
                 imgUrl=imgUrl.slice(0,imgUrl.length-4)+'s'+730+'/';
+              
               document.getElementById('large').style.backgroundImage='url('+imgUrl+')';
               $("#viewer-fragment-description").text(thumb['data-description']);
           }
@@ -140,12 +144,6 @@
             <td id="viewer-next-cell"  style="width: 40px;">
                 <a href="#" class="gallery-arrow"><div class="gallery-arrow-box" ><i class="fa fa-caret-right"></i></div></a>
             </td>
-<!--<td>
-<p>Имя</p>
-<p>E-mail</p>
-<p>Телефон</p>
-<p>Примечание</p>
-</td> -->
             </tr>
     </tbody>
     </table>
@@ -177,7 +175,7 @@
                                         <tbody>
                                         <tr>
                                             <td height="300px" width="300px" style="vertical-align:middle; text-align: center;">
-                                                <a id="gallery-item-link" onlclick="" ">
+                                                <a id="gallery-item-link" onlclick="" >
                                                     <img id="gallery-item-image" border="none" align="center" alt="" src="" />
                                                 </a>
                                             </td>
