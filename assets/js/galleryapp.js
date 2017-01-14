@@ -77,8 +77,15 @@ function renderCategory(category)
         itemCell.find("#gallery-item-text").text(item.Title);
         var cpa =""+item.Page+",'"+category+"',"+i;
         itemCell.find("#gallery-item-link").attr("onclick","galleryApp.clickPicture( "+cpa+" );");
-        var sizePfx = item.PicasaSize || "";
-        itemCell.find("#gallery-item-image").attr('src',item.PicasaImages[0]+"s300"+sizePfx+"/");
+        if (item.CloudinaryImages)
+        {
+            itemCell.find("#gallery-item-image").attr('src', CloudinaryFit(item.CloudinaryImages[0],300));
+        }
+        else
+        {
+            var sizePfx = item.PicasaSize || "";
+            itemCell.find("#gallery-item-image").attr('src',item.PicasaImages[0]+"s300"+sizePfx+"/");
+        }
         itemCell.appendTo(tr);
     }
     tbody.show();
