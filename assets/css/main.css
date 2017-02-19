@@ -206,6 +206,7 @@ h1 {
     }
 
     #avatar {
+        display: inline-block;
         float: none;
         margin-right: 0;
     }
