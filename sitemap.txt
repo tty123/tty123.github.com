@@ -1,4 +1,6 @@
 http://danaia-art.com/index.html
+http://danaia-art.com/pictures/71.html
+http://danaia-art.com/pictures/70.html
 http://danaia-art.com/pictures/69.html
 http://danaia-art.com/pictures/68.html
 http://danaia-art.com/pictures/67.html
@@ -9,7 +11,6 @@ http://danaia-art.com/pictures/63.html
 http://danaia-art.com/pictures/62.html
 http://danaia-art.com/pictures/61.html
 http://danaia-art.com/pictures/60.html
-http://danaia-art.com/pictures/59.html
 http://danaia-art.com/pictures/58.html
 http://danaia-art.com/pictures/57.html
 http://danaia-art.com/pictures/56.html
@@ -39,6 +40,7 @@ http://danaia-art.com/pictures/39.html
 http://danaia-art.com/pictures/23.html
 http://danaia-art.com/pictures/24.html
 http://danaia-art.com/pictures/25.html
+http://danaia-art.com/pictures/59.html
 http://danaia-art.com/pictures/26.html
 http://danaia-art.com/pictures/27.html
 http://danaia-art.com/pictures/28.html
