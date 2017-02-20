@@ -39,7 +39,7 @@
         this.core.s = _extends({}, danaiaDefaults, this.core.s);
         if (this.core.s.hash) {
             this.oldHash = window.location.hash;
-            this.oldLocation = window.location.pathname; //added to oirignal implimentation
+            this.oldLocation = window.location.pathname; //added to orignal implimentation
             this.init();
         }
 
@@ -54,9 +54,13 @@
 
         // Change hash value on after each slide transition
         utils.on(_this.core.el, 'onAfterSlide.lgtm', function (event) {           
+
+            var slideIndex = event.detail.index;
+            var p = _this.core.items[slideIndex];
+           
            //history.pushState doesn't work for local file when document.origin == null
            if (window.location.protocol.startsWith ("file")) return;
-           var p = _this.core.items[event.detail.index];
+           
            var  loc = "/pictures/" +p.Page+ ".html";
            if (_this.core.s.category) loc+="?category="+_this.core.s.category;
            history.pushState(null, "Danaia Art - "+p.Title, loc);           
@@ -65,6 +69,16 @@
            //original implimintation in hash plugin 
            // window.location.hash = 'lg=' + _this.core.s.galleryId + '&slide=' + event.detail.index;
         });
+
+        utils.on(_this.core.el, 'onBeforeSlide.lgtm', function (event) {           
+            //restore full picture image that might have changed by select fragment
+            var prevIndex = event.detail.prevIndex;
+            var p = _this.core.items[prevIndex];           
+           if (p == null) return;                  
+           //switch to full picture view instead fragment    
+            galleryApp.showFragment(p.Page,0, false);           
+        });
+
 
         // Listen hash change and change the slide according to slide value
         utils.on(window, 'hashchange.LgDanaia', function () {
@@ -115,11 +129,12 @@
 
     DanaiaCustom.prototype.controls = function () {
         var _this = this;
+
+        //add category controls
         
         var _html = '<span class="lg-icon" id="danaia-home"></span><span id="danaia-category">'
                     +_this.core.s.title+'</span>';
 
-        // Append autoplay controls
         _this.core.outer.querySelector(this.core.s.appendCategoryTo).insertAdjacentHTML('afterbegin', _html);
 
         utils.on(_this.core.outer.querySelector('#danaia-category'), 'click.lg', function () {            
@@ -128,8 +143,8 @@
 
         utils.on(_this.core.outer.querySelector('#danaia-home'), 'click.lg', function () {            
             _this.core.destroy();            
-        });
-
+        });        
+        //TODO: Append autoplay controls
     };
 
     window.lgModules.danaiaCustom = DanaiaCustom;

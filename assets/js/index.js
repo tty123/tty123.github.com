@@ -109,7 +109,59 @@ var galleryApp = (function(){
         showGallery(category , picture , onPopState );
     }
 
+  
+
     return {
+
+        showFragment: function (p, fragment, animation)
+        {
+            if (animation == null) animation = true;
+            var picture = byId[p];
+            if (picture == null) return;
+            if (picture.CloudinaryImages.length <= fragment ) return;
+            var lgCurrent = document.querySelector(".lg-current");
+            if (lgCurrent == null || lgCurrent.children[0] == null) 
+               return;          
+                //throw new Error ("Smth is wrong with Lightgallery #100");            
+            
+            lgCurrent = lgCurrent.children[0];
+            var imgCurrent = null;
+            if (lgCurrent.children.length == 1)
+            {
+                imgCurrent = lgCurrent.children[0];
+                imgCurrent.setAttribute ("data-fragment-current", "true");
+                imgCurrent.setAttribute ("data-fragment-index", "0");
+            }
+            else
+            {
+                imgCurrent = lgCurrent.querySelector("[data-fragment-current='true']");
+            }
+
+            var imgUpcoming = lgCurrent.querySelector("[data-fragment-index='"+fragment+"']");
+            if (imgCurrent == imgUpcoming) return;
+            
+            if (imgUpcoming == null)
+            {
+                var imgSrc = CloudinaryFitHeight(picture.CloudinaryImages[fragment],800);    
+                imgUpcoming = imgCurrent.cloneNode();
+                imgUpcoming.setAttribute('src',imgSrc);  
+                imgUpcoming.setAttribute ("data-fragment-index", fragment);
+                utils.addClass(imgUpcoming, 'fragment-load');
+                lgCurrent.appendChild(imgUpcoming);
+            }
+
+            imgCurrent.setAttribute ("data-fragment-current", "false");
+            imgUpcoming.setAttribute ("data-fragment-current", "true");
+
+            //do operation async to avoid delay when scroll to next picture
+            setTimeout ( function (){                
+                utils.addClass(imgCurrent, 'fragment-hide');
+                utils.removeClass(imgUpcoming, 'fragment-hide');            
+                utils.addClass(imgUpcoming, 'fragment-show');
+            } , 1);
+
+        },
+
         init: function (){
         console.log("init");
         pictures.list.forEach(
@@ -132,8 +184,17 @@ var galleryApp = (function(){
             //add light gallery specific attributes to picture object
             p.src = CloudinaryFitHeight(p.CloudinaryImages[0],800);
             //p.thumb = CloudinaryFitHeight(p.CloudinaryImages[0],700);
-            p.subHtml = '<h2>'+p.Title+'</h2><p>'+p.Description+'</p>';
+
+            p.subHtml = "";
+
+            for (var j=0; p.CloudinaryImages.length > 1 && j<p.CloudinaryImages.length; j++)
+                p.subHtml+=
+                "<a href='javascript:galleryApp.showFragment("+p.Page+","+j+");'> <img src='"+
+                    CloudinaryFitHeight(p.CloudinaryImages[j],50)+"'></a>";
+
+            p.subHtml  += '<h2>'+p.Title+'</h2><p>'+p.Description+'</p>';
         });
+
 
          window.addEventListener("popstate", function(e){ route(null, true); });
          route();

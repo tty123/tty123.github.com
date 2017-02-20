@@ -71,3 +71,37 @@
 #danaia-home:after {
   content: "\e094";
 }
+
+
+.fragment-hide {
+    display: none !important;
+}
+
+.fragment-show {
+ /*   transform: scale3d(2, 2, 2);
+    transition: transform 3s; */
+}
+.fragment-load {
+    background: url("../img/loading.gif") no-repeat scroll center center transparent;
+}
+.lg-sub-html > a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.lg-sub-html > a > img {
+    margin: 1px 1px;    
+    padding: 1px 1px;
+    /*box-shadow: rgba(0,0,0,0.5) 0px 0px 50px 0px; */
+    border: 1px;
+    border-style: solid;
+    border-color:  #fff; 
+}
+
+.lg-sub-html > a > img:hover {    
+    border-color: rgba(0,0,0,0);
+}
+
+.lg-sub-html > a> img:active {    
+    border-color:rgba(0,0,0,0);    
+}
