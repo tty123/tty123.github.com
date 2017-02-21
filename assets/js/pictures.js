@@ -3,6 +3,25 @@
 pictures.list =
 [
     {
+        "Page": "72",
+        "Title": "Ростральная колонна",
+        "Description": "Акрил,  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "cityscape",
+            "walls",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1487715321/published/oh7jofrx78vb9aqgvxol.jpg",
+            "/v1487715323/published/oajn4tf8ugwz23gsbwt9.jpg",
+            "/v1487715321/published/wjk3wwdtbatlvsfmlszc.jpg",
+            "/v1487715325/published/egphlkodp9sl4f365wtl.jpg"
+        ]
+    },
+
+
+    {
         "Page": "71",
         "Title": "Нимфеи",
         "Description": "Холст/акрил, 80см х 100 см, 2016 г.",
