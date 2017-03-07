@@ -13,7 +13,7 @@ var galleryApp = (function(){
 
     function CloudinaryFitHeight(image, limit)
     {
-        return cloudinaryPfx+"c_fit,h_"+limit+image;
+        return cloudinaryPfx+"c_limit,h_"+limit+image;
     }
 
     function getCategoryTitle (category){

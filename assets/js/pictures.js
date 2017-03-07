@@ -3,9 +3,120 @@
 pictures.list =
 [
     {
+        "Page": "80",
+        "Title": "Васильки и ромашки",
+        "Description": "Холст/акрил, 50x50  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920473/published/h72l1ghaq9pjjnjypun2.jpg"
+        ]
+    },
+    {
+        "Page": "78",
+        "Title": "Снежные хризантемы",
+        "Description": "Холст/акрил, 50x50  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920490/published/edt45ck5fryxyzpyiusx.jpg"
+        ]
+    },
+    {
+        "Page": "77",
+        "Title": "Снежные маргаритки",
+        "Description": "Холст/акрил, 40x50  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920487/published/uba5wbz2fbudba81j7e2.jpg"
+        ]
+    },
+    {
+        "Page": "74",
+        "Title": "Монмартр. Утро.",
+        "Description": "Холст/масло, 70x40  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "cityscape",
+            "stilllife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920483/published/zihinazt1p7oesn55har.jpg"
+        ]
+    },
+    {
+        "Page": "75",
+        "Title": "Монмартр. Ночь.",
+        "Description": "Холст/масло, 70x40  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "cityscape",
+            "stilllife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920480/published/on1acgla0bywazegzu6o.jpg"
+        ]
+    },
+    {
+        "Page": "76",
+        "Title": "Журавельник луговой",
+        "Description": "Холст/акрил, 20x30  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920474/published/ui316bjta4kg7iej96wd.jpg"
+        ]
+    },
+    {
+        "Page": "79",
+        "Title": "Розовые хризантемы на сером",
+        "Description": "Холст/акрил, 50x50  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488920471/published/bsgjy4p3zgknwkhmmesj.jpg"
+        ]
+    },        
+        {
+        "Page": "73",
+        "Title": "Девочка с зонтиком",
+        "Description": "Холст / акрил, 50x40, 2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "abstract",
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1487878380/published/g4umhcewabwvl1zwup9p.jpg",
+            "/v1487878380/published/pdgwxvx8u2jyl6685dok.jpg",
+            "/v1487878380/published/oapt6wr5kya1y7hncwru.jpg",
+            "/v1487878380/published/tspgapervucujsa4fmvg.jpg"
+        ]
+    },
+
+    {        
         "Page": "72",
         "Title": "Ростральная колонна",
-        "Description": "Акрил,  2016 г.",
+        "Description": "Акрил, 270 x 400,  2016 г.",
         "PriceRUB": "9000 руб.",
         "Categories": [
             "cityscape",
@@ -24,7 +135,7 @@ pictures.list =
     {
         "Page": "71",
         "Title": "Нимфеи",
-        "Description": "Холст/акрил, 80см х 100 см, 2016 г.",
+        "Description": "Холст/акрил, 80х100, 2016 г.",
         "PriceRUB": "9000 руб.",
         "Categories": [
             "news",

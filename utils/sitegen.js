@@ -24,23 +24,24 @@ pictures.list.forEach(
             //use decodeEntities=false to keep non escaped non ASCII characters
             var pageUrl = domainName+"pictures/"+ p.Page+".html";
             $ = cheerio.load(fs.readFileSync(mainHtml), {decodeEntities: false});
-            $("title").append(" - "+ p.Title);
+            $("title").text(p.Title+' - '+$("title").text());
             $("#stitle").text(p.Title);
             $("#sdescr").text(p.Description);
             $("#simg").attr("src",CloudinaryFitHeight(p.CloudinaryImages[0],150));            
             
+            $("link[rel='canonical']").attr('href', pageUrl);
             $("meta[name='description']").attr('content',p.Title+"  "+p.Description);
             $("meta[name='keywords']").attr('content', p.Title+','+p.Description 
                 + ',' + $("meta[name='keywords']").attr('content'));                        
             $("meta[property='og:title']").attr('content', 
-                $("meta[property='og:title']").attr('content') +' - '+p.Title); 
+                p.Title + ' - ' + $("meta[property='og:title']").attr('content') ); 
             $("meta[property='og:url']").attr('content', pageUrl);
             $("meta[property='og:type']").attr('content', 'article');
             $("meta[property='og:description']").attr('content', p.Title+"  "+p.Description);
             $("meta[property='og:image']").attr("content",CloudinaryFitHeight(p.CloudinaryImages[0],150));            
             
             $("meta[itemprop='name']").attr('content', 
-                $("meta[itemprop='name']").attr('content') +' - '+p.Title); 
+                p.Title + ' - ' + $("meta[itemprop='name']").attr('content')); 
             $("meta[itemprop='url']").attr('content', pageUrl);
             $("meta[itemprop='description']").attr('content', p.Title+"  "+p.Description);
             $("meta[itemprop='thumbnailUrl']").attr("content",CloudinaryFitHeight(p.CloudinaryImages[0],150));            
@@ -48,7 +49,7 @@ pictures.list.forEach(
             $("meta[itemprop='image']").attr("content",CloudinaryFitHeight(p.CloudinaryImages[0],800));            
             
             $("meta[name='twitter:title']").attr('content', 
-                $("meta[name='twitter:title']").attr('content') +' - '+p.Title); 
+                p.Title + ' - '+ $("meta[name='twitter:title']").attr('content') ); 
             $("meta[name='twitter:url']").attr('content', pageUrl);            
             $("meta[name='twitter:description']").attr('content', p.Title+"  "+p.Description);
             $("meta[name='twitter:image']").attr("content",CloudinaryFitHeight(p.CloudinaryImages[0],150));            
