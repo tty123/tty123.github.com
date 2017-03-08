@@ -2,6 +2,106 @@
 
 pictures.list =
 [
+        {
+        "Page": "87",
+        "Title": "Пионы в стеклянной вазе",
+        "Description": "Холст/масло, 60x80  2017 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "flowers",
+            "stillife",
+            "2017"
+        ],
+        "CloudinaryImages": [
+            "/v1488953899/published/fxtl2dcuzdq38ne5l2n0.jpg",
+            "/v1488953902/published/qdp5jhstd6uz5wkgswbt.jpg",
+            "/v1488953900/published/cs2bih11p4sspkic0hrl.jpg",
+            "/v1488953898/published/ptjomldp9lchb79wl7rv.jpg"
+        ]
+    },
+    {
+        "Page": "81",
+        "Title": "Радужные пионы",
+        "Description": "Холст/акрил, 50x50  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488953901/published/xec7ic3shblgooxy53if.jpg"
+        ]
+    },
+    {
+        "Page": "82",
+        "Title": "Душистый горошек и ромашки",
+        "Description": "Холст/акрил, 40x50  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488953899/published/zxqnawemfou1o7ttskqa.jpg"
+        ]
+    },
+    {
+        "Page": "84",
+        "Title": "Вишня цветет",
+        "Description": "Холст/акрил, 60x40  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488953900/published/n2esa6s4dnlabh3ekwqw.jpg"
+        ]
+    },
+    {
+        "Page": "86",
+        "Title": "Небесная танцовщица",
+        "Description": "Холст/акрил, 50x40  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "abstract",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488953899/published/iefdlbnq33qx7rcztcez.jpg",
+            "/v1488953898/published/tjtt90fd7pilnaxi9cpj.jpg",
+            "/v1488953898/published/krs0ehrjsrdwtyxxc5j5.jpg",
+            "/v1488953895/published/kgxcdjlw0jwmmyq9rwxn.jpg"
+        ]
+    },
+    {
+        "Page": "83",
+        "Title": "Ирисы",
+        "Description": "Холст/акрил, 60x40  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488953899/published/bz2lalpajirm414ghdi9.jpg"
+        ]
+    },
+    {
+        "Page": "85",
+        "Title": "Одуванчики",
+        "Description": "Холст/акрил, 40x30  2016 г.",
+        "PriceRUB": "9000 руб.",
+        "Categories": [
+            "flowers",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488953899/published/pj3xmxoaezouvboncnzv.jpg",
+            "/v1488953897/published/r00fxhgkbloel0ztdlsq.jpg"
+        ]
+    },
     {
         "Page": "80",
         "Title": "Васильки и ромашки",
