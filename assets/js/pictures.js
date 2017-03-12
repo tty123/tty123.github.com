@@ -2,6 +2,92 @@
 
 pictures.list =
 [
+     {
+        "Page": "93",
+        "Title": "Натюрморт с бутылками рома и русалкой",
+        "Description": "Холст/масло, 50x50  2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "stillife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1489312377/published/nya1xthx269r7p7ksyaj.jpg"
+        ]
+    },
+    {
+        "Page": "92",
+        "Title": "Натюрморт с самоваром",
+        "Description": "Холст/масло, 50x50  2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "stillife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1489312377/published/ub5nmagngfcfejkwvrxg.jpg"
+        ]
+    },
+    {
+        "Page": "91",
+        "Title": "Натюрморт с кофейником и гранатом",
+        "Description": "Холст/масло, 50x50  2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "stillife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1489312376/published/yegbwaz2klpw8sif6qg5.jpg"
+        ]
+    },
+    {
+        "Page": "90",
+        "Title": "Натюрморт с гжелью",
+        "Description": "Холст/масло, 50x50  2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "stillife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488993425/published/z5xsmk3lsaypinp5y5z3.jpg",
+            "/v1488993420/published/nijaqlrgieaulxkp9nkg.jpg",
+            "/v1488993418/published/bbsgqui6m4rplzeyzwqx.jpg"
+        ]
+    },
+    {
+        "Page": "89",
+        "Title": "Натюрморт с корзиной винограда",
+        "Description": "Холст/масло, 50x40  2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "stillife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488993430/published/iqwmv9gnspqqxnbumj2b.jpg",
+            "/v1488993419/published/chud0yflwdicy6nnjtol.jpg",
+            "/v1488993436/published/jcknlvrrtunihk5ntmyy.jpg",
+            "/v1488993417/published/asrb4jmjhiv1w92282aq.jpg",
+            "/v1488993423/published/paqonejwuzc3foaljhtr.jpg"
+        ]
+    },
+    {
+        "Page": "88",
+        "Title": "Натюрморт с Венерой",
+        "Description": "Холст/масло, 50x40  2016 г.",
+        "PriceRUB": "90000 руб.",
+        "Categories": [
+            "stillife",
+            "2016"
+        ],
+        "CloudinaryImages": [
+            "/v1488993424/published/xyiv2qgll61m9gmi2fbs.jpg",
+            "/v1488993435/published/ofqsfjtqzuuzavngtxbu.jpg"
+        ]
+    },
+
         {
         "Page": "87",
         "Title": "Пионы в стеклянной вазе",
@@ -239,8 +325,8 @@ pictures.list =
         "PriceRUB": "9000 руб.",
         "Categories": [
             "news",
-            "stillife",
-            "abstract",
+            "flowers",
+            "abstract",            
             "2016"
         ],
         "CloudinaryImages": [
@@ -257,6 +343,7 @@ pictures.list =
         "PriceRUB": "9000 руб.",
         "Categories": [
             "news",
+            "flowers",
             "stillife",
             "2016"
         ],
@@ -354,7 +441,7 @@ pictures.list =
         "PriceRUB": "9000 руб.",
         "Categories": [
             "news",
-            "stillife",
+            "flowers",
             "2016"
         ],
         "PicasaImages": [
@@ -409,7 +496,7 @@ pictures.list =
         "PriceRUB": "9000 руб.",
         "Categories": [
             "news",
-            "stillife",
+            "flowers",
             "2016"
         ],
         "PicasaImages": [
@@ -468,7 +555,7 @@ pictures.list =
         "Description": "Холст/акрил 60см x 90см 2016 г.",
         "PriceRUB": "9000 руб.",
         "Categories": [
-            "news",
+            "flowers",
             "stillife",
             "2016"
         ],
@@ -574,7 +661,7 @@ pictures.list =
         "Description": "Холст/масло 90см x 50см 2015 г.",
         "PriceRUB": "9000 руб.",
         "Categories": [
-            "news",
+            "flowers",
             "stillife",
             "2015"
         ],

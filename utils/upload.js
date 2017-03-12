@@ -8,7 +8,7 @@ var started = 0;
 var finished = 0;
 
 var upload_options = { folder: "published", 
-            transformation: { height: 800, crop: "limit" }
+            transformation: { height: 1200, crop: "limit" }
  };
 
 cloudinary.config({ 
