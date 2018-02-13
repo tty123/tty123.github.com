@@ -61,10 +61,17 @@
            //history.pushState doesn't work for local file when document.origin == null
            if (window.location.protocol.startsWith ("file")) return;
            
-           var  loc = "/pictures/" +p.Page+ ".html";
+           var  loc =  galleryApp.getItemLocation(p);
            if (_this.core.s.category) loc+="?category="+_this.core.s.category;
-           history.pushState(null, "Danaia Art - "+p.Title, loc);           
-           document.title = "Danaia Art - "+p.Title;
+
+           var title = p.Title;
+           var lang = galleryApp.requestedLanguage();
+
+            if (lang != "default" && p[lang] != null)
+                   if ( p[lang].Title ) title = p[lang].Title;
+                        
+           history.pushState(null, "Danaia Art - " + title, loc);           
+           document.title = "Danaia Art - " + title;
            ga('send', 'pageview', loc);
            //original implimintation in hash plugin 
            // window.location.hash = 'lg=' + _this.core.s.galleryId + '&slide=' + event.detail.index;
@@ -102,7 +109,7 @@
         }
 
         //set site default location
-        history.pushState(null, "Danaia Art", "/");        
+        history.pushState(null, "Danaia Art", galleryApp.getHomeLocation());        
         document.title = "Danaia Art";
         //replacement for original implimintation
         //if (this.oldLocation) {

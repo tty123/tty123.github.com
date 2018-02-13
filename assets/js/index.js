@@ -32,12 +32,15 @@ var galleryApp = (function(){
         var url=null;
         var result = {};
 
+        var pictureIdx = locationObj.pathname.indexOf('/pictures/');
+
+
         if (locationObj.pathname == "" || location.pathname == "/")
         {
         }
-        else if (locationObj.pathname.startsWith('/pictures/'))
+        else if (pictureIdx >= 0 )
         {
-            url=location.pathname.slice(10);
+            url=location.pathname.slice(pictureIdx + 10);
             if (url.endsWith(".html")) url=url.slice(0,-5);
             result["picture"]=url;
         }
@@ -109,9 +112,29 @@ var galleryApp = (function(){
         showGallery(category , picture , onPopState );
     }
 
+    function userLanguage ()
+    {
+        var language = window.navigator.userLanguage || window.navigator.language;
+        if (language == null ) return "ru";
+        if (language.indexOf("ru") >= 0 ) return "ru";
+        else return "en";
+    }
+
+    function requestedLanguage()
+    {
+        try {
+            if (window.location.pathname.startsWith("/en/")) return "en";
+        }
+        catch (err)
+        {}        
+        return "default";
+    }
+
   
 
     return {
+
+        requestedLanguage:  requestedLanguage,
 
         showFragment: function (p, fragment, animation)
         {
@@ -162,41 +185,66 @@ var galleryApp = (function(){
 
         },
 
-        init: function (){
-        console.log("init");
-        pictures.list.forEach(
-        function (p) {
-            byId[p.Page] = p;
-            if (!p.Categories) return;
-            p.Categories.forEach( function (c)
-                {
-                    var cl =byCategory[c];
-                    if (!cl)
+        getItemLocation: function (p)
+        {
+             var path="";
+             var l = requestedLanguage();
+             if ( l!="default" ) path = "/"+l;             
+             path += "/pictures/" +p.Page+ ".html";
+             return path;
+        },
+
+        getHomeLocation: function ()
+        {
+            var l = requestedLanguage();
+            if ( l == "default") return "/";
+            else return "/"+l+"/";
+        },
+
+        init: function () {
+
+            var lang = requestedLanguage();
+
+            pictures.list.forEach(
+                function (p) {
+                    byId[p.Page] = p;
+                    if (!p.Categories) return;
+                    p.Categories.forEach( function (c) {
+                        var cl =byCategory[c];
+                        if (!cl) {
+                            cl = [ p ];
+                            byCategory [c] = cl;
+                        }
+                        else
+                            cl.push (p);
+                    });
+                    
+                    //add light gallery specific attributes to picture object
+                    p.src = CloudinaryFitHeight(p.CloudinaryImages[0],800);
+                    //p.thumb = CloudinaryFitHeight(p.CloudinaryImages[0],700);
+
+                    p.subHtml = "";
+
+                    for (var j=0; p.CloudinaryImages.length > 1 && j<p.CloudinaryImages.length; j++)
+                    p.subHtml+=
+                        "<a href='javascript:galleryApp.showFragment("+p.Page+","+j+");'> <img src='"+
+                            CloudinaryFitHeight(p.CloudinaryImages[j],50)+"'></a>";
+                    
+                    var title = p.Title;
+                    var descr = p.Description;
+
+                    if (lang != "default" && p[lang] != null)
                     {
-                        cl = [ p ];
-                        byCategory [c] = cl;
+                        if ( p[lang].Title ) title = p[lang].Title;
+                        if ( p[lang].Description ) descr = p[lang].Description;
                     }
-                    else
-                        cl.push (p);
-                }
-            );
-
-            //add light gallery specific attributes to picture object
-            p.src = CloudinaryFitHeight(p.CloudinaryImages[0],800);
-            //p.thumb = CloudinaryFitHeight(p.CloudinaryImages[0],700);
-
-            p.subHtml = "";
-
-            for (var j=0; p.CloudinaryImages.length > 1 && j<p.CloudinaryImages.length; j++)
-                p.subHtml+=
-                "<a href='javascript:galleryApp.showFragment("+p.Page+","+j+");'> <img src='"+
-                    CloudinaryFitHeight(p.CloudinaryImages[j],50)+"'></a>";
-
-            p.subHtml  += '<h2>'+p.Title+'</h2><p>'+p.Description+'</p>';
-        });
+                    
+                    p.subHtml  += '<h2>' + title + '</h2><p>'+ descr +'</p>';
+            });
 
 
          window.addEventListener("popstate", function(e){ route(null, true); });
+         
          route();
     },
 
