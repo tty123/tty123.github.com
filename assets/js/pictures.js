@@ -3,6 +3,58 @@ pictures = {};
 pictures.list =
     [
         {
+            "Page": "101",
+            "Title": "Однажды в Риомаджоре",
+            "Description": "Холст/акрил, 80x120 2017 г.",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Once in Riomaggiore",
+                "Description": "Acrylic on canvas 80x120 2017"
+            },
+            "Categories": [
+                "abstract",
+                "sea",
+                "2017"],
+            "CloudinaryImages": [
+                "/v1518633185/published/ibh345skcvy2h5q7ru9y.jpg",
+                "/v1518633173/published/owtvjl8746zao7bgftzu.jpg",
+                "/v1518633175/published/ioxmgrtfdrqsv7fmkesr.jpg",
+                "/v1518633175/published/pmqanl5dflckuraaerd0.jpg"]
+        },
+        {
+            "Page": "100",
+            "Title": "Ночные маргаритки",
+            "Description": "Холст/акрил, 50x40 2017 г.",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Night Daisies",
+                "Description": "Acrylic on canvas 50x40 2017"
+            },
+            "Categories": [
+                "abstract",
+                "flowers",
+                "2017"],
+            "CloudinaryImages": [
+                "/v1518633181/published/jr5rbxfn190gpmspyelg.jpg"]
+        },
+        {
+            "Page": "99",
+            "Title": "Понте Веккьо",
+            "Description": "Холст/акрил, 90x120 2017 г.",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Ponte Vecchio",
+                "Description": "Acrylic on canvas 90x120 2017"
+            },
+            "Categories": [
+                "abstract",
+                "cityscape",
+                "2017"],
+            "CloudinaryImages": [
+                "/v1518633181/published/zs66gu0cthmczjdtbzgr.jpg",
+                "/v1518633173/published/xof3w7kzn93ezdcjp7db.jpg"]
+        },
+        {
             "Page": "98",
             "Title": "Азалии и эвкалипт",
             "Description": "Холст/акрил, 50x50 2017 г.",
@@ -37,7 +89,7 @@ pictures.list =
                 "/v1518557982/published/pgxcrvfkdklwcugz8m0e.jpg",
                 "/v1518557983/published/wiitsz1p98yaqxy8v1ji.jpg"]
         },
-                
+
         {
             "Page": "96",
             "Title": "Голубая бездна",
@@ -90,7 +142,7 @@ pictures.list =
                 "/v1518557999/published/ohxymzjxgunqdqikzeck.jpg",
                 "/v1518557980/published/hcnkhyzb1c24nqvroy38.jpg",
                 "/v1518557980/published/xmpn3jilr5tiqecykvgo.jpg"]
-        },    
+        },
         {
             "Page": "93",
             "Title": "Натюрморт с бутылками рома и русалкой",
