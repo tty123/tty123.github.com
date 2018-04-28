@@ -87,7 +87,6 @@ pictures.list =
               "Description": "Oil on canvas 100x100 2017"
             },
             "Categories": [
-              "walls",
               "flowers",
               "2017"
             ],
