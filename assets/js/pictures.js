@@ -3,6 +3,117 @@ pictures = {};
 pictures.list =
     [
         {
+            "Page": "120",
+            "Title": "La Serenissima",
+            "Description": "Холст/масло, 100см x 90см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "La Serenissima",
+                "Description": "Oil on canvas 100x90 2018"
+            },
+            "Categories": [
+                "cityscape",
+                "venice",
+                "flowers",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543571665/published/wpret9tfhsttcjuflald.jpg",
+                "/v1543571664/published/nfpbpi7fsvcv6ncauiaa.jpg",
+                "/v1543571671/published/rgi3nt2x2ztv1chyaq9a.jpg",
+                "/v1543571674/published/y79a86hnimk3roilagt0.jpg"
+            ]
+        },
+        {
+            "Page": "117",
+            "Title": "Принцессы и Замки",
+            "Description": "Стена, акрил 275см x 500см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Princesses and Castles",
+                "Description": "Acrylic on a wall 275x500 2018"
+            },
+            "Categories": [
+                "walls",
+                "landscape",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543571669/published/kp9qh9x3gemzwewb8zuf.jpg",
+                "/v1543571672/published/jftkxdekessdibtbn9rv.jpg",
+                "/v1543571674/published/i9wuq3zcwchrhysgyvej.jpg",
+                "/v1543571653/published/xh4ysfnjplxvwv39nvby.jpg",
+                "/v1543571659/published/ko0npczwkokjbayerns2.jpg",
+                "/v1543571672/published/hcqvqvvfhdwhlndobdhi.jpg",
+                "/v1543571660/published/eslyf4axp1hrawg925us.jpg",
+                "/v1543571662/published/mptstjjun8i82skyrt6t.jpg"
+            ]
+        },
+        {
+            "Page": "121",
+            "Title": "Ангел города",
+            "Description": "Акрил, штукатурка, дерево,  76см x 90см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "City Angel",
+                "Description": "Acrylic, plaster, wood 76x90 2018"
+            },
+            "Categories": [
+                "abstract",
+                "venice",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543571667/published/p6dwhaej7gguoutt3su9.jpg",
+                "/v1543571662/published/n2xti7vctgkibjav6ajc.jpg",
+                "/v1543571667/published/uzhte6rq28xggilutcal.jpg",
+                "/v1543571664/published/bcyky3lkcb6fpajvield.jpg"
+            ]
+        },
+        {
+            "Page": "119",
+            "Title": "Acqua Alta",
+            "Description": "Холст/масло, 120см x 60см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "TAcqua Alta",
+                "Description": "Oil on canvas 120x60 2018"
+            },
+            "Categories": [
+                "cityscape",
+                "venice",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543571667/published/b3tjhmadyleftwfstkep.jpg",
+                "/v1543571667/published/n5yylmuldtdtmmzbdqly.jpg",
+                "/v1543571665/published/owbyux1x0ewxnocxeapm.jpg"
+            ]
+        },
+        {
+            "Page": "118",
+            "Title": "Вечный город",
+            "Description": "Холст/масло, 62см x 67см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "The Eternal City",
+                "Description": "Oil on canvas 62x67 2018"
+            },
+            "Categories": [
+                "abstract",
+                "cityscape",
+                "venice",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543571667/published/azmw1dfuofphai7vg30u.jpg",
+                "/v1543571664/published/bxarmdqqmwizc2p6q45x.jpg",
+                "/v1543571659/published/lbnjh4svd6ogaamxqfzx.jpg",
+                "/v1543571667/published/jsuaa673ezr8sgtspaih.jpg",
+                "/v1543571665/published/c1ohjcuewvbekxcvsg2f.jpg"
+            ]
+        },
+        {
             "Page": "115",
             "Title": "Закат над Сеной",
             "Description": "Холст/акрил, 80x120 2017 г.",
