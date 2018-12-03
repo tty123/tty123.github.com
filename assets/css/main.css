@@ -1,6 +1,6 @@
-@import url("http://fonts.googleapis.com/css?family=Alex+Brush&text=Danaia%20Art");
-/*@import url("https://fonts.googleapis.com/css?family=Marck+Script");*/
-@import url("https://fonts.googleapis.com/css?family=Bad+Script");
+@import url("http://fonts.googleapis.com/css?family=Alex+Brush&text=painter");
+/* @import url("https://fonts.googleapis.com/css?family=Marck+Script"); */
+@import url("https://fonts.googleapis.com/css?family=Bad+Script&text");
 @import url("http://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic");
 @import url("/assets/css/fontello.css");
 
@@ -32,15 +32,24 @@ h1, h2, h3 {
 
 
 h1 {
-            font-family: 'Alex Brush', cursive;
-            font-size: 80px;
-          /*  color: #ff97e5; */
-            color: #fff;
+            font-size: 60px;
+           /* color: #ff97e5; */ 
+            font-family: 'Bad Script', cursive;
+            color: #fff; 
             display: block;
-            font-weight: normal !important;            
-            margin: 0.6em 0 0.2em 0;
+            font-weight: 100 !important;            
+            margin: 0.6em 0 0.6em 1em;
             text-shadow: 3px 3px black;
+            text-align: left;
 }
+
+h1 > span
+{
+    font-family: 'Alex Brush', cursive;
+    font-size: 86px;
+    font-weight: 100 !important;     
+}
+
 
 @media screen and (max-width: 414px) {
     h1 {
@@ -344,6 +353,12 @@ h1 {
     .footer a {
         display: block;     
         margin-left: 3em;
+        font-size: 18px;
+    }
+
+    .footer a > i
+    {
+        font-size: 18px;    
     }
 }
 

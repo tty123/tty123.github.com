@@ -3,6 +3,67 @@ pictures = {};
 pictures.list =
     [
         {
+            "Page": "124",
+            "Title": "Проснуться в Венеции",
+            "Description": "Холст/акрил, 50см x 150см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Awakening in Venice",
+                "Description": "Acrylic on canvas 50x150 2018"
+            },
+            "Categories": [
+                "cityscape",
+                "venice",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543831763/published/tb7iol1bieavjxjtnoo0.jpg",
+                "/v1543831758/published/ac7mdytcc2w2sxetnzco.jpg",
+                "/v1543831758/published/o5msheqzckgmkk3t2mxo.jpg",
+                "/v1543831758/published/heyl1u79xmhh1wfoe8ko.jpg"
+            ]
+        },
+        {
+            "Page": "122",
+            "Title": "В рассветный час",
+            "Description": "Холст/акрил, 60см x 120см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Dawn Hour",
+                "Description": "Acrylic on canvas 60x120 2018"
+            },
+            "Categories": [
+                "landscape",
+                "cityscape",
+                "venice",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543831761/published/sovwtp1rbluirhy9xtaa.jpg"
+            ]
+        },
+        {
+            "Page": "123",
+            "Title": "Полночь в Венеции",
+            "Description": "Холст/масло, 100см x 80см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Midnight in Venice",
+                "Description": "Oil on canvas 100x80 2018"
+            },
+            "Categories": [
+                "cityscape",
+                "venice",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1543831761/published/g07ymrzx4f4x5yxqquj4.jpg",
+                "/v1543831757/published/mhv5rph43mzxrpxxbgpl.jpg",
+                "/v1543831757/published/ykjzi9bsya5zjnuhu62f.jpg",
+                "/v1543831760/published/gtdy6gkent5stkkaudtr.jpg"
+            ]
+        },
+        {
             "Page": "120",
             "Title": "La Serenissima",
             "Description": "Холст/масло, 100см x 90см 2018 г",
@@ -76,7 +137,7 @@ pictures.list =
             "Description": "Холст/масло, 120см x 60см 2018 г",
             "PriceRUB": "90000 руб.",
             "en": {
-                "Title": "TAcqua Alta",
+                "Title": "Acqua Alta",
                 "Description": "Oil on canvas 120x60 2018"
             },
             "Categories": [
@@ -1788,7 +1849,7 @@ pictures.list =
                 "http://lh4.googleusercontent.com/-k-FdZ1GBPFI/U1-XLQqX9HI/AAAAAAAAAGM/U-moU4o8BQA/"
             ],
             "CloudinaryImages": [
-                "/v1485467079/published/fft4n0btioh5j3kcbvws.jpg"
+                "/v1543573332/published/римские_каникулы.jpg"
             ]
         },
         {

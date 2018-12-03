@@ -1,4 +1,7 @@
 http://danaia-art.com/index.html
+http://danaia-art.com/pictures/124.html
+http://danaia-art.com/pictures/122.html
+http://danaia-art.com/pictures/123.html
 http://danaia-art.com/pictures/120.html
 http://danaia-art.com/pictures/117.html
 http://danaia-art.com/pictures/121.html
@@ -121,6 +124,9 @@ http://danaia-art.com/pictures/1.html
 http://danaia-art.com/pictures/2.html
 http://danaia-art.com/pictures/3.html
 http://danaia-art.com/en/index.html
+http://danaia-art.com/en/pictures/124.html
+http://danaia-art.com/en/pictures/122.html
+http://danaia-art.com/en/pictures/123.html
 http://danaia-art.com/en/pictures/120.html
 http://danaia-art.com/en/pictures/117.html
 http://danaia-art.com/en/pictures/121.html
