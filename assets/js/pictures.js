@@ -105,7 +105,6 @@ pictures.list =
                 "/v1543571674/published/i9wuq3zcwchrhysgyvej.jpg",
                 "/v1543571653/published/xh4ysfnjplxvwv39nvby.jpg",
                 "/v1543571659/published/ko0npczwkokjbayerns2.jpg",
-                "/v1543571672/published/hcqvqvvfhdwhlndobdhi.jpg",
                 "/v1543571660/published/eslyf4axp1hrawg925us.jpg",
                 "/v1543571662/published/mptstjjun8i82skyrt6t.jpg"
             ]

@@ -20,9 +20,6 @@ h1, h2, h3 {
 #pageWrapper {
     overflow: auto;
     position: fixed;
-    background-position: left, top; 
-    background-repeat: repeat; 
-    background-image: url("/assets/img/background2.png");
     left: 0;
     top: 0;  
     height: 100%;    
@@ -65,7 +62,10 @@ h1 {
     }
 }
 
-#categoryList {    
+#categoryList { 
+    background-position: left, top; 
+    background-repeat: repeat; 
+    background-image: url("/assets/img/background2.png");   
     text-align: center;    
     padding-bottom: 3em;    
     min-height: 85vh;    
@@ -327,7 +327,9 @@ h1 {
 
 
 .footer {
-    background: rgba(0,0,0,0.5);
+    background-position: left, top; 
+    background-repeat: repeat; 
+    background-image: url("/assets/img/background2.png");   
     margin: 0 0 0 0;
     text-align: center;    
     padding: 24px 8px 8px 8px;    
