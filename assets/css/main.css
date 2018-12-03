@@ -43,7 +43,7 @@ h1 {
             text-align: left;
 }
 
-h1 > span
+.AlexBrushH1
 {
     font-family: 'Alex Brush', cursive;
     font-size: 86px;
@@ -53,7 +53,15 @@ h1 > span
 
 @media screen and (max-width: 414px) {
     h1 {
-            font-size: 60px;
+            font-size: 30px;
+            text-align: center;
+            margin: 0.6em 0 0.6em 0;
+    }
+
+    .AlexBrushH1
+    {
+        font-size: 44px;
+        font-weight: 100 !important;     
     }
 }
 
