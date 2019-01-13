@@ -34,7 +34,6 @@ pictures.list =
             },
             "Categories": [
                 "landscape",
-                "cityscape",
                 "venice",
                 "2018"
             ],
@@ -96,7 +95,6 @@ pictures.list =
             },
             "Categories": [
                 "walls",
-                "landscape",
                 "2018"
             ],
             "CloudinaryImages": [
@@ -119,7 +117,7 @@ pictures.list =
                 "Description": "Acrylic, plaster, wood 76x90 2018"
             },
             "Categories": [
-                "abstract",
+                "cityscape",
                 "venice",
                 "2018"
             ],
@@ -183,7 +181,6 @@ pictures.list =
               "Description": "Acrylic on canvas 80x120 2017"
             },
             "Categories": [
-              "sea",
               "landscape",
               "2017"
             ],
@@ -210,23 +207,22 @@ pictures.list =
             ]
           },
           {
-            "Page": "116",
-            "Title": "Круиз",
-            "Description": "Холст/акрил, 50x40 2018 г.",
+            "Page": "96",
+            "Title": "Голубая бездна",
+            "Description": "Холст/акрил, 80x100 2017 г.",
             "PriceRUB": "90000 руб.",
             "en": {
-              "Title": "Cruise",
-              "Description": "Acrylic on canvas 50x40 2018"
+                "Title": "Blue Deep",
+                "Description": "Acrylic on canvas 80x100 2017"
             },
-            "Categories": [
-              "sea",
-              "abstract",
-              "2018"
-            ],
-            "CloudinaryImages": [
-              "/v1524924121/published/p4bu6lydlb1rdokhinjl.jpg"
-            ]
-          },
+            "Categories": ["sea", "2017"],
+            "CloudinaryImages":
+                ["/v1518558004/published/jggin7lo097qb5dn6rcd.jpg",
+                    "/v1518557978/published/v6hmcre3oyw2ga4reznt.jpg",
+                    "/v1518557982/published/qxkh191nxrfpnnqsvt5w.jpg",
+                    "/v1518557979/published/gsxflo3ed5rp8pzmqwif.jpg",
+                    "/v1518557983/published/r38fg6o6wrcc7wmwvjyu.jpg"]
+        },
           {
             "Page": "114",
             "Title": "Ибица",
@@ -238,7 +234,6 @@ pictures.list =
             },
             "Categories": [
               "sea",
-              "abstract",
               "2018"
             ],
             "CloudinaryImages": [
@@ -246,6 +241,42 @@ pictures.list =
               "/v1524924120/published/xqmjniugr7mir5d2cd22.jpg",
               "/v1524924120/published/cliowjku4t56uczv9zih.jpg",
               "/v1524924118/published/dffmllwf7mnebl9rhkrf.jpg"
+            ]
+          },
+          {
+            "Page": "101",
+            "Title": "Однажды в Риомаджоре",
+            "Description": "Холст/акрил, 80x120 2017 г.",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Once in Riomaggiore",
+                "Description": "Acrylic on canvas 80x120 2017"
+            },
+            "Categories": [
+                "sea",
+                "2017"],
+            "CloudinaryImages": [
+                "/v1518633185/published/ibh345skcvy2h5q7ru9y.jpg",
+                "/v1518633173/published/owtvjl8746zao7bgftzu.jpg",
+                "/v1518633175/published/ioxmgrtfdrqsv7fmkesr.jpg",
+                "/v1518633175/published/pmqanl5dflckuraaerd0.jpg"]
+        },
+
+          {
+            "Page": "116",
+            "Title": "Круиз",
+            "Description": "Холст/акрил, 50x40 2018 г.",
+            "PriceRUB": "90000 руб.",
+            "en": {
+              "Title": "Cruise",
+              "Description": "Acrylic on canvas 50x40 2018"
+            },
+            "Categories": [
+              "sea",
+              "2018"
+            ],
+            "CloudinaryImages": [
+              "/v1524924121/published/p4bu6lydlb1rdokhinjl.jpg"
             ]
           },
           {
@@ -275,7 +306,6 @@ pictures.list =
                 "Description": "Acrylic on canvas 50x40 2017"
             },
             "Categories": [
-                "abstract",
                 "flowers",
                 "2017"
             ],
@@ -352,7 +382,7 @@ pictures.list =
             },
             "Categories": [
                 "flowers",
-                "abstract",
+                "sea",
                 "2017"
             ],
             "CloudinaryImages": [
@@ -388,7 +418,6 @@ pictures.list =
             },
             "Categories": [
                 "landscape",
-                "sea",
                 "2017"
             ],
             "CloudinaryImages": [
@@ -442,31 +471,11 @@ pictures.list =
             },
             "Categories": [
                 "landscape",
-                "sea",
                 "2017"
             ],
             "CloudinaryImages": [
                 "/v1524515641/published/wizglsyibeihdk1sworz.jpg"
             ]
-        },
-        {
-            "Page": "101",
-            "Title": "Однажды в Риомаджоре",
-            "Description": "Холст/акрил, 80x120 2017 г.",
-            "PriceRUB": "90000 руб.",
-            "en": {
-                "Title": "Once in Riomaggiore",
-                "Description": "Acrylic on canvas 80x120 2017"
-            },
-            "Categories": [
-                "abstract",
-                "sea",
-                "2017"],
-            "CloudinaryImages": [
-                "/v1518633185/published/ibh345skcvy2h5q7ru9y.jpg",
-                "/v1518633173/published/owtvjl8746zao7bgftzu.jpg",
-                "/v1518633175/published/ioxmgrtfdrqsv7fmkesr.jpg",
-                "/v1518633175/published/pmqanl5dflckuraaerd0.jpg"]
         },
         {
             "Page": "100",
@@ -494,7 +503,6 @@ pictures.list =
                 "Description": "Acrylic on canvas 90x120 2017"
             },
             "Categories": [
-                "abstract",
                 "cityscape",
                 "2017"],
             "CloudinaryImages": [
@@ -511,7 +519,6 @@ pictures.list =
                 "Description": "Acrylic on canvas 50x50 2017"
             },
             "Categories": [
-                "abstract",
                 "flowers",
                 "2017"],
             "CloudinaryImages": [
@@ -528,7 +535,6 @@ pictures.list =
                 "Description": "Acrylic on canvas 40x30 2017"
             },
             "Categories": [
-                "abstract",
                 "flowers",
                 "2017"],
             "CloudinaryImages": [
@@ -537,23 +543,7 @@ pictures.list =
                 "/v1518557983/published/wiitsz1p98yaqxy8v1ji.jpg"]
         },
 
-        {
-            "Page": "96",
-            "Title": "Голубая бездна",
-            "Description": "Холст/акрил, 80x100 2017 г.",
-            "PriceRUB": "90000 руб.",
-            "en": {
-                "Title": "Blue Deep",
-                "Description": "Acrylic on canvas 80x100 2017"
-            },
-            "Categories": ["abstract", "sea", "2017"],
-            "CloudinaryImages":
-                ["/v1518558004/published/jggin7lo097qb5dn6rcd.jpg",
-                    "/v1518557978/published/v6hmcre3oyw2ga4reznt.jpg",
-                    "/v1518557982/published/qxkh191nxrfpnnqsvt5w.jpg",
-                    "/v1518557979/published/gsxflo3ed5rp8pzmqwif.jpg",
-                    "/v1518557983/published/r38fg6o6wrcc7wmwvjyu.jpg"]
-        },
+
         {
             "Page": "95",
             "Title": "Свежее утро",
@@ -706,6 +696,7 @@ pictures.list =
             "PriceRUB": "9000 руб.",
             "Categories": [
                 "flowers",
+                "abstract",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -731,7 +722,6 @@ pictures.list =
             "Description": "Холст/акрил, 60x40  2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "flowers",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -762,6 +752,7 @@ pictures.list =
             "PriceRUB": "9000 руб.",
             "Categories": [
                 "flowers",
+                "abstract",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -802,6 +793,7 @@ pictures.list =
             "PriceRUB": "9000 руб.",
             "Categories": [
                 "flowers",
+                "abstract",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -815,6 +807,7 @@ pictures.list =
             "PriceRUB": "9000 руб.",
             "Categories": [
                 "flowers",
+                "abstract",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -869,6 +862,7 @@ pictures.list =
             "PriceRUB": "9000 руб.",
             "Categories": [
                 "flowers",
+                "abstract",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -881,7 +875,6 @@ pictures.list =
             "Description": "Холст / акрил, 50x40, 2016 г.",
             "PriceRUB": "90000 руб.",
             "Categories": [
-                "abstract",
                 "flowers",
                 "2016"
             ],
@@ -936,9 +929,7 @@ pictures.list =
             "Description": "Холст/масло, 80см х 95 см, 2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "flowers",
-                "stillife",
                 "2016"
             ],
             "CloudinaryImages": [
@@ -954,7 +945,6 @@ pictures.list =
             "Description": "Холст/акрил 90см x 50см 2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "2016"
             ],
@@ -1005,7 +995,6 @@ pictures.list =
             "Description": "Холст/масло 80см x 80см 2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "flowers",
                 "2016"
             ],
@@ -1035,7 +1024,6 @@ pictures.list =
             "Description": "Холст/акрил 100см x 100см 2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "flowers",
                 "2016"
             ],
@@ -1062,9 +1050,9 @@ pictures.list =
             "Description": "Холст/акрил 100см x 100см 2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "landscape",
+                "sea",
                 "2016"
             ],
             "PicasaImages": [
@@ -1090,7 +1078,6 @@ pictures.list =
             "Description": "Холст, акрил, серебряная поталь 100см x 100см 2016 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "flowers",
                 "2016"
             ],
@@ -1120,7 +1107,6 @@ pictures.list =
             "Description": "Холст/масло 60см x 90см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2015"
             ],
@@ -1177,7 +1163,6 @@ pictures.list =
             "Description": "Холст/акрил 100см x 100см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "2015"
             ],
@@ -1198,7 +1183,7 @@ pictures.list =
             "Description": "Холст/акрил 50см x 90см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
+                "flowers",
                 "abstract",
                 "2015"
             ],
@@ -1223,7 +1208,6 @@ pictures.list =
             "Description": "Холст/акрил 100см x 100см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "2015"
             ],
@@ -1282,7 +1266,6 @@ pictures.list =
             "Description": "Холст/акрил 100см x 100см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "cityscape",
                 "2015"
@@ -1312,7 +1295,6 @@ pictures.list =
             "Description": "Холст/акрил 100см x 100см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "2015"
             ],
@@ -1344,7 +1326,6 @@ pictures.list =
             "Description": "Холст/акрил 50см x 90см 2014 г.",
             "PriceRUB": "4000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "2014"
             ],
@@ -1364,7 +1345,6 @@ pictures.list =
             "Description": "Холст/акрил 50см x 80см 2014 г.",
             "PriceRUB": "4000 руб.",
             "Categories": [
-                "news",
                 "abstract",
                 "2014"
             ],
@@ -1393,7 +1373,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 60см 2014 г.",
             "PriceRUB": "8000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2014"
             ],
@@ -1471,14 +1450,10 @@ pictures.list =
             "CloudinaryImages": [
                 "/v1485467079/published/kqncsjzsdahkkmuulddg.jpg",
                 "/v1485467079/published/v8qw5qpvsijdquccpbpr.jpg",
-                "/v1485467079/published/o5o8p16ld8veov4dfulo.jpg",
                 "/v1485467079/published/vlfgeyfmgvd95bn19xu0.jpg",
                 "/v1485467078/published/mybiqz1cjeqgcbxt9nyp.jpg",
                 "/v1485467078/published/ye7wh47q48m1w37b7cki.jpg",
-                "/v1485467079/published/q791ycuv94g87pks1np9.jpg",
-                "/v1485467080/published/e0nn0fronl8uxoj4rc4h.jpg",
-                "/v1485467079/published/leekfqap0i171rb1fxha.jpg",
-                "/v1485467079/published/p6qj6z4pqi5bjznqpppc.jpg"
+                "/v1485467080/published/e0nn0fronl8uxoj4rc4h.jpg"
             ]
         },
         {
@@ -1487,7 +1462,6 @@ pictures.list =
             "Description": "Холст/масло 60см x 50см 2014 г.",
             "PriceRUB": "20000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2014"
             ],
@@ -1507,7 +1481,6 @@ pictures.list =
             "Description": "Акрил, гипсокартон 110см x 270см, 110см x 270см, 2014 г.",
             "PriceRUB": "20000 руб.",
             "Categories": [
-                "news",
                 "walls",
                 "2014"
             ],
@@ -1595,12 +1568,10 @@ pictures.list =
                 "фрагмент"
             ],
             "CloudinaryImages": [
-                "/v1485467080/published/t0xgkacb2vjzi3qtbswt.jpg",
                 "/v1485467079/published/wzwyo1ab8ewxufrjjv5b.jpg",
                 "/v1485467080/published/owjmmfc2hf6e5jwwdly9.jpg",
                 "/v1485467080/published/s0mgkwnxkfpe64sfuyum.jpg",
                 "/v1485467079/published/amge1sy30uavzsrln5bk.jpg",
-                "/v1485467079/published/e2sr3aniaajohmuziz2o.jpg",
                 "/v1485467079/published/i7otfjjktvyptlhvacy2.jpg"
             ]
         },
@@ -1636,9 +1607,7 @@ pictures.list =
                 "/v1485467080/published/gptmvlgubmxgfbplh5pp.jpg",
                 "/v1485467080/published/t2tnupfhc4yynx8jj0pw.jpg",
                 "/v1485467080/published/sfhpres7slpuidpcyohb.jpg",
-                "/v1485467080/published/lml4cdb9wfsy60arq4td.jpg",
-                "/v1485467080/published/wnskbcaibahaufg1qyh5.jpg",
-                "/v1485467080/published/mfr6dve52nkcd1sqwn3u.jpg"
+                "/v1485467080/published/lml4cdb9wfsy60arq4td.jpg"
             ]
         },
         {
@@ -1721,7 +1690,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 90см 2014 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "landscape",
                 "2014"
             ],
@@ -1754,7 +1722,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 80см 2014 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2014"
             ],
@@ -1772,7 +1739,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 90см 2013 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2013"
             ],
@@ -1822,7 +1788,6 @@ pictures.list =
             "Description": "Холст/масло 70см x 120см 2013 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "landscape",
                 "2013"
             ],
@@ -1840,7 +1805,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 90см 2013 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2013"
             ],
@@ -1858,7 +1822,6 @@ pictures.list =
             "Description": "Холст/масло 80см x 60см 2013 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "landscape",
                 "2013"
             ],
@@ -1876,7 +1839,6 @@ pictures.list =
             "Description": "Холст/масло 60см x 40см 2013 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "landscape",
                 "2013"
             ],
@@ -1905,7 +1867,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 80см 2013 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2013"
             ],
@@ -1974,7 +1935,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 90см 2015 г.",
             "PriceRUB": "9000 руб.",
             "Categories": [
-                "cityscape",
                 "2015"
             ],
             "PicasaImages": [
@@ -2012,7 +1972,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 60см 2012 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2012"
             ],
@@ -2048,7 +2007,6 @@ pictures.list =
             "Description": "Холст/масло 60см x 40см 2012 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2012"
             ],
@@ -2066,7 +2024,6 @@ pictures.list =
             "Description": "Холст/масло 40см x 45см 2012 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "stillife",
                 "2012"
             ],
@@ -2101,7 +2058,6 @@ pictures.list =
             "Description": "Холст/масло 90см x 150см 2012 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "landscape",
                 "triptih",
                 "2012"
@@ -2183,7 +2139,6 @@ pictures.list =
             "Description": "Холст/масло 50см x 90см 2011 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "landscape",
                 "2011"
             ],
@@ -2241,7 +2196,7 @@ pictures.list =
             "Description": "Холст/масло 30см x 40см 2010 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "cityscape",
+                "landscape",
                 "2010"
             ],
             "PicasaImages": [
@@ -2258,7 +2213,6 @@ pictures.list =
             "Description": "Холст/масло 60см x 50см 2010 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2010"
             ],
@@ -2276,6 +2230,7 @@ pictures.list =
             "Description": "Холст/масло 30см x 60см 2010 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
+                "abstract",
                 "cityscape",
                 "2010"
             ],
@@ -2421,7 +2376,6 @@ pictures.list =
             "Description": "Холст/масло 80см x 140см 2010 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "triptih",
                 "2010"
@@ -2452,7 +2406,6 @@ pictures.list =
             "Description": "Холст/масло 80см x 60см 2010 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2010"
             ],
@@ -2487,7 +2440,6 @@ pictures.list =
             "Description": "Холст/масло 40см x 50см 2009 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "news",
                 "cityscape",
                 "2009"
             ],
@@ -2505,7 +2457,7 @@ pictures.list =
             "Description": "Холст/масло 30см x 40см 2009 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "cityscape",
+                "landscape",
                 "2009"
             ],
             "PicasaImages": [
