@@ -2483,7 +2483,28 @@ pictures.list =
             "CloudinaryImages": [
                 "/v1485467078/published/kbbikpyqz738pexfg2rm.jpg"
             ]
+        },
+
+        {
+            "Page": "125",
+            "Title": "Итальянская Ривьера",
+            "Description": "Стена, акрил, 170см x 220см 2018 г",
+            "PriceRUB": "90000 руб.",
+            "en": {
+                "Title": "Italian Riviera",
+                "Description": "Acrylic on a wall 170x220 2018"
+            },
+            "Categories": [
+                "walls",
+                "2018"
+            ],
+            "CloudinaryImages": [
+                "/v1552418770/published/gvrkn4vkj5gkxmhcaowm.jpg",
+                "/v1552418765/published/fy9zwtwssfgioq9pj879.jpg",
+                "/v1552418772/published/okn9qoq9f5nvrb0aj6j9.jpg"
+            ]
         }
+
     ];
 
 
