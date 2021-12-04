@@ -1890,7 +1890,7 @@ pictures.list =
             "Description": "Холст/масло 60см x 70см 2012 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "cityscape",
+                "italy",
                 "2012"
             ],
             "PicasaImages": [
@@ -1907,7 +1907,7 @@ pictures.list =
             "Description": "Холст/масло 50см x 60см 2012 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "cityscape",
+                "landscape",
                 "2012"
             ],
             "PicasaImages": [
@@ -2268,7 +2268,6 @@ pictures.list =
             "Description": "Холст/масло 60см x 40см 2010 г.",
             "PriceRUB": "2000 руб.",
             "Categories": [
-                "italy",
                 "2010"
             ],
             "PicasaImages": [
