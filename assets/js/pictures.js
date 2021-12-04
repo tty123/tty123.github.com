@@ -12,7 +12,7 @@ pictures.list =
                 "Description": "Acrylic on canvas 50x150 2018"
             },
             "Categories": [
-                "venice",
+                "italy",
                 "2018"
             ],
             "CloudinaryImages": [
@@ -32,7 +32,7 @@ pictures.list =
                 "Description": "Acrylic on canvas 60x120 2018"
             },
             "Categories": [
-                "venice",
+                "italy",
                 "2018"
             ],
             "CloudinaryImages": [
@@ -49,7 +49,7 @@ pictures.list =
                 "Description": "Oil on canvas 100x80 2018"
             },
             "Categories": [
-                "venice",
+                "italy",
                 "2018"
             ],
             "CloudinaryImages": [
@@ -69,7 +69,7 @@ pictures.list =
                 "Description": "Oil on canvas 100x90 2018"
             },
             "Categories": [
-                "venice",
+                "italy",
                 "flowers",
                 "2018"
             ],
@@ -132,7 +132,7 @@ pictures.list =
                 "Description": "Oil on canvas 120x60 2018"
             },
             "Categories": [
-                "venice",
+                "italy",
                 "2018"
             ],
             "CloudinaryImages": [
@@ -151,7 +151,7 @@ pictures.list =
                 "Description": "Oil on canvas 62x67 2018"
             },
             "Categories": [
-                "venice",
+                "italy",
                 "2018"
             ],
             "CloudinaryImages": [
